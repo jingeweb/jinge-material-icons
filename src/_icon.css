@@ -1,0 +1,18 @@
+.md-icon {
+  width: 1.125em;
+  height: 1.125em;
+  display: inline-flex;
+  user-select: none;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  transition: color 0.4s ease;
+}
+
+.md-icon > svg {
+  height: 100%;
+  flex: 1;
+  transition: fill 0.4s ease;
+  overflow: hidden;
+  fill: currentColor;
+}

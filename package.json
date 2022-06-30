@@ -1,0 +1,29 @@
+{
+  "name": "jinge-material-icons",
+  "version": "1.0.0",
+  "description": "material icons for jinge framework",
+  "main": "src/_icon.js",
+  "scripts": {
+    "generate": "node scripts/generate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jingeweb/jinge-material-icons.git"
+  },
+  "keywords": [
+    "material",
+    "icon",
+    "jinge"
+  ],
+  "author": "YuhangGe <abeyuhang@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jingeweb/jinge-material-icons/issues"
+  },
+  "homepage": "https://github.com/jingeweb/jinge-material-icons#readme",
+  "devDependencies": {
+    "jinge": "^3.2.1",
+    "jinge-compiler": "^3.2.1",
+    "svgo": "^2.8.0"
+  }
+}
