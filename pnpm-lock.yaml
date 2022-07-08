@@ -71,8 +71,8 @@ packages:
       css-tree: 1.1.3
     dev: true
 
-  /csv-parse/5.2.1:
-    resolution: {integrity: sha512-6JA4UDz7Vvs66ZZWUxR0uD6BR6Oh07rRaKjsZpoqcI7vDdoNpCHgJ58QpAZ8si/y7yK2qTeqOK+ZhrVsR28icQ==}
+  /csv-parse/5.2.2:
+    resolution: {integrity: sha512-WCQVGZM5YEj+2+mOuV0ss73GQi/pSlurOGD7qlJJi0sY9DPp2KiX7AInd3W1mjaxnIASlUIHirsTnLX5LoHF4g==}
     dev: true
 
   /dom-serializer/1.4.1:
@@ -121,7 +121,7 @@ packages:
       '@jingeweb/html5parser': 0.0.4
       acorn: 8.7.1
       acorn-walk: 8.2.0
-      csv-parse: 5.2.1
+      csv-parse: 5.2.2
       html-entities: 2.3.3
       html-tags: 3.2.0
       svg-tags: 1.0.0
