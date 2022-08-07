@@ -45,7 +45,7 @@ async function handleCategary(categary, aliasJson) {
         console.error(`[error] ${filename} svgo error:`, svg.error);
         continue;
       }
-      const result = await TemplateParser.parse(svg.data.replace(/<g\/>/g, ''), {
+      const result = TemplateParser.parse(svg.data.replace(/<g\/>/g, ''), {
         resourcePath: filepath,
         emitErrorFn: (err) => console.error(err),
       });
@@ -69,13 +69,13 @@ async function handleCategary(categary, aliasJson) {
   execSync(`cp ${SRC_DIR}/_icon.css ${LIB_DIR}`);
 
   let cnt = await fs.readFile(path.join(SRC_DIR, '_icon.js'), 'utf-8');
-  let result = await ComponentParser.parse(cnt, undefined, {
+  let result = ComponentParser.parse(cnt, undefined, {
     resourcePath: '_icon.js'
   });
   await fs.writeFile(path.join(LIB_DIR, '_icon.js'), result.code.replace(`'./_icon.html'`, `'./_icon.tpl.js'`));
 
   cnt = await fs.readFile(path.join(SRC_DIR, '_icon.html'), 'utf-8');
-  result = await TemplateParser.parse(cnt, { resourcePath: '_icon.html' });
+  result = TemplateParser.parse(cnt, { resourcePath: '_icon.html' });
   await fs.writeFile(path.join(LIB_DIR, '_icon.tpl.js'), result.code);
 
   const aliasJson = [];
