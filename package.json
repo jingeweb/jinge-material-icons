@@ -4,6 +4,7 @@
   "description": "material icons for jinge framework",
   "main": "src/_icon.js",
   "scripts": {
+    "build": "npm run generate",
     "generate": "node scripts/generate.js"
   },
   "repository": {
@@ -22,10 +23,11 @@
   },
   "homepage": "https://github.com/jingeweb/jinge-material-icons#readme",
   "devDependencies": {
+    "jinge": "^3.2.2",
+    "jinge-compiler": "^3.2.2",
     "svgo": "^2.8.0"
   },
-  "dependencies": {
-    "jinge": "^3.2.2",
-    "jinge-compiler": "^3.2.2"
+  "peerDependencies": {
+    "jinge": ">= 3.2.2"
   }
 }
