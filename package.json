@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/jingeweb/jinge-material-icons#readme",
   "devDependencies": {
-    "jinge": "^3.2.2",
     "jinge-compiler": "^3.2.2",
+    "jinge": "^3.2.2",
     "svgo": "^2.8.0"
   },
   "peerDependencies": {
