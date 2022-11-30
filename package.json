@@ -1,6 +1,6 @@
 {
   "name": "jinge-material-icons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "material icons for jinge framework",
   "main": "src/_icon.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "devDependencies": {
     "jinge-compiler": "^3.2.2",
     "jinge": "^3.2.2",
-    "svgo": "^2.8.0"
+    "svgo": "^3.0.2"
   },
   "peerDependencies": {
     "jinge": ">= 3.2.2"
