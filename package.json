@@ -1,8 +1,8 @@
 {
-  "name": "jinge-material-icons",
+  "name": "jinge-symbols-base",
   "version": "1.0.2",
-  "description": "material icons for jinge framework",
-  "main": "src/_icon.js",
+  "description": "material symbols for jinge framework",
+  "main": "lib/index.js",
   "scripts": {
     "build": "npm run generate",
     "generate": "node scripts/generate.js"

@@ -1,1 +1,0 @@
-copy svg files to here

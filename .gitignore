@@ -3,3 +3,7 @@
 /lib
 **/*.svg
 node_modules
+/outlined
+/rounded
+/sharp
+/icon-list.js

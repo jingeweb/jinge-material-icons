@@ -3,3 +3,8 @@
 node_modules
 /scripts
 /src
+/outlined
+/rounded
+/sharp
+.npmignore
+.gitignore
